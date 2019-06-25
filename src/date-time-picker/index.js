@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Russian } from "./locale";
 
-import Flatpickr from "react-flatpickr";
+import { DateTimePicker as Flatpickr } from "../react-flatpickr";
 import { useStyles } from "./styles";
 
 export const DateTimePicker = () => {
